@@ -1,0 +1,541 @@
+[
+    {
+        "id": 169,
+        "name": "Concord West Pharmacy",
+        "address": "25 Victoria Avenue, Concord West, NSW 2138",
+        "phone": "02 9743 1116",
+        "homeDelivery": true,
+        "coordinates": {
+            "lat": -33.8477845,
+            "lng": 151.0867251
+        }
+    },
+    {
+        "id": 182,
+        "name": "Wisemans Ferry Pharmacy",
+        "address": "5557 Old Northern Rd, Wisemans Ferry, NSW 2775",
+        "phone": "02 4566 4999",
+        "homeDelivery": false,
+        "coordinates": {
+            "lat": -33.3852923,
+            "lng": 150.9862403
+        }
+    },
+    {
+        "id": 192,
+        "name": "Priceline Pharmacy Minto Marketplace",
+        "address": "G21 Minto Market Place, 10 Brookfield Road, Minto, NSW 2566",
+        "phone": "02 8798 9148",
+        "homeDelivery": false,
+        "coordinates": {
+            "lat": -34.0300411,
+            "lng": 150.8499012
+        }
+    },
+    {
+        "id": 184,
+        "name": "Garfield Pharmacy & Medical Centre",
+        "address": "73 Main Street, Garfield, VIC 3814",
+        "phone": "03 5629 2408",
+        "homeDelivery": false,
+        "coordinates": {
+            "lat": -38.0917888,
+            "lng": 145.6756488
+        }
+    },
+    {
+        "id": 174,
+        "name": "Amcal Max Mordialloc",
+        "address": "467 Main Street, Mordialloc, VIC 3195",
+        "phone": "03 9580 1019",
+        "homeDelivery": true,
+        "coordinates": {
+            "lat": -38.005841,
+            "lng": 145.0862522
+        }
+    },
+    {
+        "id": 167,
+        "name": "TerryWhite Chemmart Kincraig",
+        "address": "110 Smith Street, Naracoorte, SA 5271",
+        "phone": "08 8762 2158",
+        "homeDelivery": true,
+        "coordinates": {
+            "lat": -36.9561483,
+            "lng": 140.7425837
+        }
+    },
+    {
+        "id": 191,
+        "name": "Direct Chemist Outlet Lalor",
+        "address": "340 Station Street, Lalor, VIC 3075",
+        "phone": "03 9465 3749",
+        "homeDelivery": true,
+        "coordinates": {
+            "lat": -37.672666,
+            "lng": 145.0163919
+        }
+    },
+    {
+        "id": 171,
+        "name": "Hampshire Pharmacy",
+        "address": "314 Hampshire Road, Sunshine, VIC 3020",
+        "phone": "03 9311 1417",
+        "homeDelivery": true,
+        "coordinates": {
+            "lat": -37.78335,
+            "lng": 144.832652
+        }
+    },
+    {
+        "id": 180,
+        "name": "Pharmasave Kippa Ring",
+        "address": "Corner Anzac Avenue and Boardman Road, Kippa Ring, QLD 4021",
+        "phone": "07 3283 3266",
+        "homeDelivery": true,
+        "coordinates": {
+            "lat": -27.2261344,
+            "lng": 153.0845841
+        }
+    },
+    {
+        "id": 189,
+        "name": "Priceline Pharmacy Tewantin",
+        "address": "3/101 Poinciana Avenue, Tewantin, QLD 4565",
+        "phone": "07 5449 7899",
+        "homeDelivery": true,
+        "coordinates": {
+            "lat": -26.3919109,
+            "lng": 153.0379184
+        }
+    },
+    {
+        "id": 185,
+        "name": "Carrum Downs Amcal Pharmacy",
+        "address": "2/1095 Frankston-Dandenong Road, Carrum Downs, VIC 3201",
+        "phone": "03 9782 9782",
+        "homeDelivery": true,
+        "coordinates": {
+            "lat": -38.0886367,
+            "lng": 145.1825171
+        }
+    },
+    {
+        "id": 160,
+        "name": "Infinity Pharmacy Burpengary (B1)",
+        "address": "Shop 20 115-117 Buckley Road, Burpengary, QLD 4505",
+        "phone": "07 5433 1600",
+        "homeDelivery": true,
+        "coordinates": {
+            "lat": -27.1386474,
+            "lng": 152.9807413
+        }
+    },
+    {
+        "id": 179,
+        "name": "Priceline Pharmacy George St Brisbane",
+        "address": "336 George Street, Brisbane, QLD 4000",
+        "phone": "07 3236 2400",
+        "homeDelivery": true,
+        "coordinates": {
+            "lat": -27.4693773,
+            "lng": 153.0217254
+        }
+    },
+    {
+        "id": 194,
+        "name": "Racecourse Road Pharmacy",
+        "address": "119 Racecourse Road, Ascot, QLD 4007",
+        "phone": "07 3268 3262",
+        "homeDelivery": true,
+        "coordinates": {
+            "lat": -27.4335173,
+            "lng": 153.0655609
+        }
+    },
+    {
+        "id": 161,
+        "name": "Cincotta Discount Chemist Wollongong",
+        "address": "237 Crown Street, Wollongong, NSW 2500",
+        "phone": "02 4229 5724",
+        "homeDelivery": true,
+        "coordinates": {
+            "lat": -34.4254242,
+            "lng": 150.8924609
+        }
+    },
+    {
+        "id": 196,
+        "name": "Burke's Pharmacy",
+        "address": "272 Belmore Road, Riverwood, NSW 2210",
+        "phone": "02 9153 8762",
+        "homeDelivery": true,
+        "coordinates": {
+            "lat": -33.9495242,
+            "lng": 151.0528564
+        }
+    },
+    {
+        "id": 178,
+        "name": "Discount Drug Store Illawong",
+        "address": "Shop G1 273 Fowler Road, Illawong, NSW 2234",
+        "phone": "02 9543 1639",
+        "homeDelivery": false,
+        "coordinates": {
+            "lat": -33.9971362,
+            "lng": 151.042223
+        }
+    },
+    {
+        "id": 153,
+        "name": "Infinity Pharmacy Torquay",
+        "address": "418 Esplanade, Torquay, QLD 4655",
+        "phone": "07 4125 2733",
+        "homeDelivery": true,
+        "coordinates": {
+            "lat": -25.2844646,
+            "lng": 152.869107
+        }
+    },
+    {
+        "id": 165,
+        "name": "South Hurstville Market Pharmacy",
+        "address": "1/18 Greenacre Road, South Hurstville, NSW 2221",
+        "phone": "02 9546 1176",
+        "homeDelivery": true,
+        "coordinates": {
+            "lat": -33.9780051,
+            "lng": 151.1036156
+        }
+    },
+    {
+        "id": 151,
+        "name": "Infinity Pharmacy Wamuran",
+        "address": "Shop 3, 1102-1110 D'Aguilar Highway, Wamuran, QLD 4512",
+        "phone": "07 5496 6000",
+        "homeDelivery": true,
+        "coordinates": {
+            "lat": -27.0395942,
+            "lng": 152.8593585
+        }
+    },
+    {
+        "id": 176,
+        "name": "Discount Drug Store Beeliar",
+        "address": "8/8 Durnin Avenue, Beeliar, WA 6164",
+        "phone": "08 9437 3677",
+        "homeDelivery": false,
+        "coordinates": {
+            "lat": -32.1282449,
+            "lng": 115.7978267
+        }
+    },
+    {
+        "id": 181,
+        "name": "Westminster Pharmacy and News",
+        "address": "1/37 Canara Road, Westminster, WA 6061",
+        "phone": "08 9344 8822",
+        "homeDelivery": true,
+        "coordinates": {
+            "lat": -31.8697923,
+            "lng": 115.8372439
+        }
+    },
+    {
+        "id": 163,
+        "name": "Infinity Pharmacy Albert Street",
+        "address": "Shop 3, 249 Albert Street, Brisbane, QLD 4000",
+        "phone": "07 3211 2488",
+        "homeDelivery": true,
+        "coordinates": {
+            "lat": -27.4690325,
+            "lng": 153.0249137
+        }
+    },
+    {
+        "id": 152,
+        "name": "Infinity Pharmacy Strathpine",
+        "address": "1/445 - 451 Gympie Road, Strathpine, QLD 4500",
+        "phone": "07 3205 2645",
+        "homeDelivery": true,
+        "coordinates": {
+            "lat": -27.3011389,
+            "lng": 152.9892117
+        }
+    },
+    {
+        "id": 166,
+        "name": "Advantage Pharmacy Morley",
+        "address": "Shop 1/8 Progress Street, Morley, WA 6062",
+        "phone": "08 9276 1183",
+        "homeDelivery": true,
+        "coordinates": {
+            "lat": -31.89645,
+            "lng": 115.89703
+        }
+    },
+    {
+        "id": 193,
+        "name": "Vera's Pharmacy",
+        "address": "493 Marrickville Road, Dulwich Hill, NSW 2203",
+        "phone": "02 9569 1215",
+        "homeDelivery": false,
+        "coordinates": {
+            "lat": -33.9037266,
+            "lng": 151.1430619
+        }
+    },
+    {
+        "id": 195,
+        "name": "Convenient Chemist Wollongong",
+        "address": "330 Crown Street, Wollongong, NSW 2500",
+        "phone": "02 4229 1528",
+        "homeDelivery": true,
+        "coordinates": {
+            "lat": -34.4252425,
+            "lng": 150.8865157
+        }
+    },
+    {
+        "id": 164,
+        "name": "Sunnybank Hills Medical Centre Pharmacy",
+        "address": "538 Compton Road, Stretton, QLD 4116",
+        "phone": "07 3711 3570",
+        "homeDelivery": true,
+        "coordinates": {
+            "lat": -27.6116644,
+            "lng": 153.0622706
+        }
+    },
+    {
+        "id": 155,
+        "name": "Infinity Pharmacy Rochedale",
+        "address": "7/2770 Logan Road, Underwood, QLD 4119",
+        "phone": "07 3341 5700",
+        "homeDelivery": true,
+        "coordinates": {
+            "lat": -27.5940462,
+            "lng": 153.1080456
+        }
+    },
+    {
+        "id": 154,
+        "name": "Pymans Pharmacy",
+        "address": "84 Wellington Parade, East Melbourne, VIC 3002",
+        "phone": "03 9419 4464",
+        "homeDelivery": true,
+        "coordinates": {
+            "lat": -37.816346,
+            "lng": 144.9872962
+        }
+    },
+    {
+        "id": 175,
+        "name": "Mannering Park Pharmacy",
+        "address": "3/72 Vales Road, Mannering Park, NSW 2259",
+        "phone": "02 4359 1662",
+        "homeDelivery": true,
+        "coordinates": {
+            "lat": -33.1525693,
+            "lng": 151.537123
+        }
+    },
+    {
+        "id": 172,
+        "name": "TerryWhite Chemmart Rostrata",
+        "address": "1/42 Rostrata Avenue, Willetton, WA 6155",
+        "phone": "08 9457 9522",
+        "homeDelivery": true,
+        "coordinates": {
+            "lat": -32.0464546,
+            "lng": 115.8950106
+        }
+    },
+    {
+        "id": 188,
+        "name": "L&A Macinante Chemist",
+        "address": "1351a Princes Highway, Healthcote, NSW 2233",
+        "phone": "02 9520 8696",
+        "homeDelivery": true,
+        "coordinates": {
+            "lat": -34.0873503,
+            "lng": 151.007681
+        }
+    },
+    {
+        "id": 190,
+        "name": "LiveLife Pharmacy Tully",
+        "address": "8 Butler Street, Tully, QLD 4854",
+        "phone": "07 4068 1373",
+        "homeDelivery": true,
+        "coordinates": {
+            "lat": -17.933715,
+            "lng": 145.9236481
+        }
+    },
+    {
+        "id": 162,
+        "name": "Infinity Pharmacy Broadbeach",
+        "address": "2681 Gold Coast Highway, Broadbeach, QLD 4218",
+        "phone": "07 5538 1523",
+        "homeDelivery": true,
+        "coordinates": {
+            "lat": -28.0309607,
+            "lng": 153.4309507
+        }
+    },
+    {
+        "id": 150,
+        "name": "Infinity Pharmacy Woodford",
+        "address": "Woolworths Centre, 71-75 Archer Street, Woodford, QLD 4514",
+        "phone": "07 5496 1073",
+        "homeDelivery": true,
+        "coordinates": {
+            "lat": -26.9522825,
+            "lng": 152.7780454
+        }
+    },
+    {
+        "id": 156,
+        "name": "Infinity Pharmacy Kawungan",
+        "address": "Shop 1, Kawunga Plaza, 1 Doolong Road, Kawungan, QLD 4655",
+        "phone": "07 4128 3080",
+        "homeDelivery": true,
+        "coordinates": {
+            "lat": -25.3045613,
+            "lng": 152.8360885
+        }
+    },
+    {
+        "id": 168,
+        "name": "TerryWhite Chemmart Hornsby",
+        "address": "Shop 1043 Westfield Shopping Centre, Hornsby, NSW 2077",
+        "phone": "02 9477 5085",
+        "homeDelivery": true,
+        "coordinates": {
+            "lat": -33.7039228,
+            "lng": 151.1013485
+        }
+    },
+    {
+        "id": 187,
+        "name": "TerryWhite Chemmart Clifford Gardens",
+        "address": "Shop 47 Clifford Gardens Shopping Centre, Cnr James Street & Anzac Avenue, Toowoomba, QLD 4350",
+        "phone": "07 4634 6845",
+        "homeDelivery": true,
+        "coordinates": {
+            "lat": -27.5644444,
+            "lng": 151.9322222
+        }
+    },
+    {
+        "id": 170,
+        "name": "UFS Dispensaries Coburg North",
+        "address": "238 Sussex Street, Coburg North, VIC 3058",
+        "phone": "03 9354 3801",
+        "homeDelivery": true,
+        "coordinates": {
+            "lat": -37.722145,
+            "lng": 144.9513215
+        }
+    },
+    {
+        "id": 173,
+        "name": "Julie's Pharmacy",
+        "address": "144 Edwards Street, Ayr, QLD 4807",
+        "phone": "07 4783 1719",
+        "homeDelivery": true,
+        "coordinates": {
+            "lat": -19.5744842,
+            "lng": 147.4073204
+        }
+    },
+    {
+        "id": 157,
+        "name": "Infinity Pharmacy Pialba",
+        "address": "Shop 4, Pialba Place Shopping Centre, Main Street, Pialba, QLD 4655",
+        "phone": "07 4128 1140",
+        "homeDelivery": true,
+        "coordinates": {
+            "lat": -25.2834349,
+            "lng": 152.8401802
+        }
+    },
+    {
+        "id": 186,
+        "name": "Priceline Pharmacy King George Square",
+        "address": "103 Adelaide Street, Brisbane, QLD 4000",
+        "phone": "07 3211 2622",
+        "homeDelivery": true,
+        "coordinates": {
+            "lat": -27.4687639,
+            "lng": 153.024976
+        }
+    },
+    {
+        "id": 148,
+        "name": "Chemist Discount Centre Cashmere",
+        "address": "Shop 8, 1 Warra Lane, Cashmere, QLD 4500",
+        "phone": "07 3049 6100",
+        "homeDelivery": true,
+        "coordinates": {
+            "lat": -27.3061438,
+            "lng": 152.935974
+        }
+    },
+    {
+        "id": 149,
+        "name": "Chemist Discount Centre Gladstone",
+        "address": "Shop 2 Centro Gladstone, 184 Goondoon Street, Gladstone, QLD 4680",
+        "phone": "07 4972 8244",
+        "homeDelivery": true,
+        "coordinates": {
+            "lat": -23.8474011,
+            "lng": 151.2593838
+        }
+    },
+    {
+        "id": 159,
+        "name": "Blooms the Chemist Dubbo",
+        "address": "15/16A Dubbosquare, Macquarie Street, Dubbo, NSW 2830",
+        "phone": "02 6882 4853",
+        "homeDelivery": true,
+        "coordinates": {
+            "lat": -32.2501593,
+            "lng": 148.6001589
+        }
+    },
+    {
+        "id": 158,
+        "name": "Infinity Pharmacy Hervey Bay",
+        "address": "Shop 14, Stockland Hervey Bay, 14 Central Avenue, Urraween, QLD 4655",
+        "phone": "07 4124 3337",
+        "homeDelivery": true,
+        "coordinates": {
+            "lat": -25.2903902,
+            "lng": 152.8356722
+        }
+    },
+    {
+        "id": 177,
+        "name": "Good Price Pharmacy Warehouse - Brendale",
+        "address": "249 Leitch's Road, Brendale, QLD 4500",
+        "phone": "07 3205 5771",
+        "homeDelivery": true,
+        "coordinates": {
+            "lat": -27.3159711,
+            "lng": 152.9817704
+        }
+    },
+    {
+        "id": 183,
+        "name": "HealthSmart Pharmacy Melbourne",
+        "address": "Shop 5 Royal Melbourne Hospital, 300 Grattan Street, Parkville, VIC 3052",
+        "phone": "03 9349 1222",
+        "homeDelivery": true,
+        "coordinates": {
+            "lat": -37.7989153,
+            "lng": 144.95617
+        }
+    }
+]

@@ -1,0 +1,19 @@
+{
+  "name": "pharmacy-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@googlemaps/google-maps-services-js": "^3.1.4",
+    "axios": "^0.19.2",
+    "axios-retry": "^3.1.8",
+    "csvtojson": "^2.0.10",
+    "fs": "^0.0.1-security",
+    "node-geocoder": "^3.27.0"
+  }
+}
