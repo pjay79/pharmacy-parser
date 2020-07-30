@@ -48,6 +48,8 @@ axiosRetry(axios, {
             newItem.id = id;
             newItem.name = item['Pharmacy Name'];
             newItem.address = `${item.Address}, ${item.City}, ${item.State} ${item['Post Code']}`;
+            newItem.suburb = item.City;
+            newItem.state = item.State;
             newItem.postcode = parseInt(item['Post Code']);
             newItem.phone = item.Phone;
             newItem.homeDelivery = item['Home Delivery Service Available'] === 'Yes' ? true : false;
