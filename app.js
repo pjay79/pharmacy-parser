@@ -48,6 +48,7 @@ axiosRetry(axios, {
             newItem.id = id;
             newItem.name = item['Pharmacy Name'];
             newItem.address = `${item.Address}, ${item.City}, ${item.State} ${item['Post Code']}`;
+            newItem.postcode = parseInt(item['Post Code']);
             newItem.phone = item.Phone;
             newItem.homeDelivery = item['Home Delivery Service Available'] === 'Yes' ? true : false;
 
@@ -61,15 +62,15 @@ axiosRetry(axios, {
                     timeout: 2000,
                 })
                 .then((response) => {
-                    newItem.coordinates = { lat: response.data.results[0].geometry.location.lat, lng: response.data.results[0].geometry.location.lng };
+                    newItem.coords = { lat: response.data.results[0].geometry.location.lat, lng: response.data.results[0].geometry.location.lng };
                     formattedList.push(newItem);
                     console.log(
                         'Generated output:',
                         formattedList.sort((a,b) => a.id - b.id),
                     );
                     fs.writeFile(
-                        `./src/data/output-${currentDate}.json`,
-                        JSON.stringify(formattedList, null, 4),
+                        `./src/data/output-${currentDate}.js`,
+                        JSON.stringify(formattedList, null, 4).replace(/"([^"]+)":/g, '$1:'),
                         (err) => {
                         if (err) {  
                             console.log(err)
