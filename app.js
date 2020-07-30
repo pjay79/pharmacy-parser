@@ -1,10 +1,23 @@
+/*
+To convert file run the following command:
+
+node app.js './src/files/pharmacy-main-1.csv'
+
+Note that the csv file should have a maximum 50 entries, the Google Geocoding API limit per second.
+
+Make sure you have a .env file in the root with your GOOGLE_API_KEY
+*/
+
+require('dotenv').config();
 const CSVToJSON = require('csvtojson');
 const fs = require('fs');
 const axios = require('axios');
-const {Client, Status} = require('@googlemaps/google-maps-services-js');
+const axiosRetry = require("axios-retry");
+const { Client, Status } = require('@googlemaps/google-maps-services-js');
+
 const client = new Client({});
 
-const axiosRetry = require("axios-retry");
+const GOOGLE_API_KEY = process.env.GOOGLE_API_KEY;
 
 // we attach the retry to our axious instance
 axiosRetry(axios, {
@@ -33,10 +46,12 @@ axiosRetry(axios, {
   },
 });
 
-
 (async () => {
     try {
-        const data = await CSVToJSON().fromFile('./pharmacy-main-1.csv');
+        const args = process.argv.slice(2);
+        const filename = args[0];
+        console.log('Transforming file:', filename);
+        const data = await CSVToJSON().fromFile(filename);
 
         let formattedList = [];
         let id = 0;
@@ -54,17 +69,23 @@ axiosRetry(axios, {
                 .geocode({
                     params: {
                         address: newItem.address,
-                        key: 'AIzaSyAkH7ZamW7d02l-uUmx25pV_DdQ3uxBJys',
+                        key: GOOGLE_API_KEY,
                     },
                     rate: 200,
                     timeout: 10000, // milliseconds
                 })
                 .then((response) => {
                     newItem.coordinates = { lat: response.data.results[0].geometry.location.lat, lng: response.data.results[0].geometry.location.lng };
-                    console.log(newItem);
                     formattedList.push(newItem);
-                    fs.writeFile('./pharmacy-main-1.js', JSON.stringify(formattedList, null, 4), (err) => {
-                        if (err) {  console.error(err);  return; };
+                    console.log('Generated output:', formattedList.sort((a,b) => a.id - b.id));
+                    fs.writeFile(
+                        './src/data/output.json',
+                        JSON.stringify(formattedList, null, 4),
+                        (err) => {
+                        if (err) {  
+                            console.log(err)
+                        }  
+                        return;
                     });
                 })
                 .catch((error) => {
