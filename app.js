@@ -7,6 +7,7 @@ const path = require('path');
 const chalk = require('chalk');
 const clear = require('clear');
 const figlet = require('figlet');
+const inquirer = require('inquirer');
 const axios = require('axios');
 const axiosRetry = require("axios-retry");
 const { Client, Status } = require('@googlemaps/google-maps-services-js');
@@ -29,13 +30,30 @@ axiosRetry(axios, {
         figlet.textSync('The Pharmacist', { horizontalLayout: 'full' })
     ));
 
-    console.log(chalk.cyan('Processing...'));                    
+    console.log('\n');
+
+    const answers = await inquirer.prompt([
+        {
+            name: 'filename',
+            message: 'Enter filename: ',
+        },
+        {
+            name: 'apiKey',
+            message: 'Enter Google API key: ',
+        },
+    ]);
+
+    console.log('\n');
+    console.log(chalk.cyan('Processing...')); 
     console.log('--------------------------------------------------------------');
 
     try {
-        const args = process.argv.slice(2);
-        const filename = args[0];
-        const apiKey = args[1];
+        // const args = process.argv.slice(2);
+        // const filename = args[0];
+        // const apiKey = args[1];
+        const filename = answers.filename;
+        const apiKey = answers.apiKey;
+
         const data = await CSVToJSON().fromFile(filename);
 
         const currentPath = process.cwd();
