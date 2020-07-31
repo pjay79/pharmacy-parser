@@ -15,7 +15,7 @@ Spreadsheet csv file should have the following columns:
 
 ```npm install -g generate-pharmacy-list```  
 
-# Useage
+# Usage
 
 ```generate-pharmacy-list --filename data.csv --apiKey qwefwer891230923```
 
