@@ -4,8 +4,8 @@ This package was created to help convert data containing a list of pharmacies fr
 
 Spreadsheet csv file should have the following columns:
 
-- Pharmacy Name (string: The Pharmacist)
-- Address (string: 1 LaTrobe Street)
+- Pharmacy Name (string: eg The Pharmacist)
+- Address (string: eg 1 LaTrobe Street)
 - City (string: eg Melbourne)
 - State (string: eg VIC)
 - Post Code (number: eg 3000)
