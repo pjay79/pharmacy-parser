@@ -19,6 +19,8 @@ Spreadsheet csv file should have the following columns:
 
 ```the-pharmacist-delivers```
 
-Follow the prompts and enter the filename and Google API key
+Follow the prompts and enter the filename and Google API key.
+
+An output.js file with will be generated with the transformed data.
 
 
