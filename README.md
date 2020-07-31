@@ -1,6 +1,6 @@
-# CSV Pharmacy Location Parser
+# Pharmacy Parser
 
-This package was created to help convert data from a spreadsheet into an array of objects.This data is used specifically for data containing pharmacy names. This package will require a valid Google API key with unrestricted access to the Geocoding API. This is used to obtaint the pharmacy coordinates (lat/lng).
+This package was created to help convert data containing a list of pharmacies from a spreadsheet (.csv file) into an array of objects. This package will require a valid Google API key with unrestricted access to the Geocoding API. This is used to obtain the pharmacy coordinates (lat/lng).
 
 Spreadsheet csv file should have the following columns:
 
