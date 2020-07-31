@@ -13,10 +13,12 @@ Spreadsheet csv file should have the following columns:
 
 # Installation
 
-```npm install -g generate-pharmacy-list```  
+```npm install -g the-pharmacist-delivers```  
 
 # Usage
 
-```generate-pharmacy-list --filename data.csv --apiKey qwefwer891230923```
+```the-pharmacist-delivers```
+
+Follow the prompts and enter the filename and Google API key
 
 
