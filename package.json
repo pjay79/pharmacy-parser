@@ -1,8 +1,8 @@
 {
-  "name": "pharmacy-parser",
+  "name": "@pjay79/csv-location-parser",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Transform csv file data to array of objects",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
