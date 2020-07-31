@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 
-require('dotenv').config();
 const CSVToJSON = require('csvtojson');
 const fs = require('fs');
 const path = require('path');
@@ -48,9 +47,6 @@ axiosRetry(axios, {
     console.log('--------------------------------------------------------------');
 
     try {
-        // const args = process.argv.slice(2);
-        // const filename = args[0];
-        // const apiKey = args[1];
         const filename = answers.filename;
         const apiKey = answers.apiKey;
 
