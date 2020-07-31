@@ -1,20 +1,27 @@
 {
-  "name": "csv-pharmacy-location-parser",
+  "name": "the-pharmacist-delivers",
   "version": "1.0.0",
-  "description": "Transform csv file data to array of objects",
+  "description": "Transform a csv file of pharmacies to an array of objects",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "bin": {
+    "the-pharmacist-delivers": "app.js"
+  },
+  "author": "Praveen Jayarajan",
   "license": "ISC",
   "dependencies": {
     "@googlemaps/google-maps-services-js": "^3.1.4",
     "axios": "^0.19.2",
     "axios-retry": "^3.1.8",
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
     "csvtojson": "^2.0.10",
     "dotenv": "^8.2.0",
+    "figlet": "^1.5.0",
     "fs": "^0.0.1-security",
+    "inquirer": "^7.3.3",
     "node-geocoder": "^3.27.0"
   }
 }
