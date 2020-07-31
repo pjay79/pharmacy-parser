@@ -1,5 +1,5 @@
 {
-  "name": "@pjay79/csv-location-parser",
+  "name": "csv-pharmacy-location-parser",
   "version": "1.0.0",
   "description": "Transform csv file data to array of objects",
   "main": "app.js",
