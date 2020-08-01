@@ -9,6 +9,12 @@
   "bin": {
     "the-pharmacist-delivers": "app.js"
   },
+  "keywords": [
+    "nodejs",
+    "csvtojson",
+    "geocoding",
+    "pharmacy"
+  ],
   "author": "Praveen Jayarajan",
   "license": "ISC",
   "dependencies": {
