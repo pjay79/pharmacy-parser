@@ -6,5 +6,5 @@ jspm_packages
 .env
 
 # src
-src
-
+pharmacy-list*.csv
+data*.js
