@@ -1,3 +1,7 @@
+![npm](https://img.shields.io/npm/v/the-pharmacist-delivers)
+![NPM](https://img.shields.io/npm/l/the-pharmacist-delivers)
+![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fpraveenj1979)
+
 # Pharmacy Parser
 
 <img width="720" alt="the-pharmacist" src="https://user-images.githubusercontent.com/14052885/89088671-f5e65400-d3dc-11ea-8690-5f83d37da949.png">
