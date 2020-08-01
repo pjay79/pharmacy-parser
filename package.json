@@ -1,6 +1,6 @@
 {
   "name": "the-pharmacist-delivers",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Transform a csv file of pharmacies to an array of objects",
   "main": "app.js",
   "scripts": {
