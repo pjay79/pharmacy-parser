@@ -1,6 +1,5 @@
 ![npm](https://img.shields.io/npm/v/the-pharmacist-delivers)
 ![NPM](https://img.shields.io/npm/l/the-pharmacist-delivers)
-![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fpraveenj1979)
 
 # Pharmacy Parser
 
